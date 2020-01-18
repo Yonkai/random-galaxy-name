@@ -15,4 +15,3 @@ function getRandomGalaxyName(){
 }
 
 exports.getRandomGalaxyName = getRandomGalaxyName;
-module.exports = getRandomGalaxyName;
