@@ -24,8 +24,14 @@ fs.readFile('galaxy-names-raw.txt', function(err, data) {
      // convert object to JSON
      let galaxyNamesJSON = JSON.stringify(preworkGalaxyNamesJSONObject);
     
-     // write file with nodejs core library 'file-system' function
-     fs.writeFile('galaxy-names.json', galaxyNamesJSON, 'utf8',  (err) => {
+     // write JSON file with nodejs core library 'file-system' function
+    //  fs.writeFile('galaxy-names.json', galaxyNamesJSON, 'utf8',  (err) => {
+    //     if (err) throw err;
+    //     console.log('The file has been saved!');
+    //   });
+
+    // write javascript data file for require
+      fs.writeFile('galaxy-names.js', 'module.exports = ' + galaxyNamesJSON, 'utf8',  (err) => {
         if (err) throw err;
         console.log('The file has been saved!');
       });  

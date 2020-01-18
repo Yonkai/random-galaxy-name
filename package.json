@@ -1,11 +1,25 @@
 {
   "name": "galaxies-data",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generates random galaxy names, thats it.",
   "main": "file-splitter.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./__tests__/getRandomGalaxyName.test.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Frank Gunsch fgunsch.webdev@gmail.com https://frankgunsch.com",
+  "license": "GPL-2.0-only",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yonkai/random-galaxy-name.git"
+  },
+  "keywords": [
+    "space",
+    "science",
+    "galaxy",
+    "galaxies"
+  ],
+  "bugs": {
+    "url": "https://github.com/Yonkai/random-galaxy-name/issues"
+  },
+  "homepage": "https://github.com/Yonkai/random-galaxy-name#readme"
 }
