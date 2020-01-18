@@ -2,7 +2,7 @@
   "name": "galaxies-data",
   "version": "1.0.0",
   "description": "Generates random galaxy names, thats it.",
-  "main": "file-splitter.js",
+  "main": "getRandomGalaxyName.js",
   "scripts": {
     "test": "node ./__tests__/getRandomGalaxyName.test.js"
   },

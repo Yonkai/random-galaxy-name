@@ -14,5 +14,5 @@ function getRandomGalaxyName(){
     return name;
 }
 
+exports.getRandomGalaxyName = getRandomGalaxyName;
 module.exports = getRandomGalaxyName;
-
