@@ -6,6 +6,12 @@ Gets galaxy names, thats it.'
 ```javascript
 const galaxies = require('galaxies-data');
 
-// Get a random galaxy name:
+// Get random galaxy name:
 console.log(galaxies.getRandomGalaxyName());
+
+//Get random alphabetic galaxy name:
+console.log(galaxies.getRandomAlphabeticGalaxyName());
+
+//Get random mostly alphabetic galaxy name:
+console.log(galaxies.getRandomMostlyAlphabeticGalaxyName());
 ```
