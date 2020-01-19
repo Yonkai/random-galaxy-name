@@ -26,7 +26,6 @@ function getRandomAlphabeticGalaxyName(){
     }
   })
 
-  console.log(alphabetic);
   return alphabetic[getRandomInt(alphabetic.length)];
 }
 

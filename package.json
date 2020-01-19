@@ -1,6 +1,6 @@
 {
   "name": "galaxies-data",
-  "version": "3.0.0",
+  "version": "3.1.1",
   "description": "Generates random galaxy names, thats it.",
   "main": "getRandomGalaxyName.js",
   "scripts": {
