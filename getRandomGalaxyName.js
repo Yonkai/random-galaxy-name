@@ -44,6 +44,8 @@ function getRandomMostlyAlphabeticGalaxyName(){
   return mostlyAlphabetic[getRandomInt(mostlyAlphabetic.length)];
 }
 
+//TODO: Random fantasy galaxy name.
+
 exports.getRandomGalaxyName = getRandomGalaxyName;
 exports.getRandomAlphabeticGalaxyName = getRandomAlphabeticGalaxyName;
 exports.getRandomMostlyAlphabeticGalaxyName = getRandomMostlyAlphabeticGalaxyName;
