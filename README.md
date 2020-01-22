@@ -15,3 +15,6 @@ console.log(galaxies.getRandomAlphabeticGalaxyName());
 //Get random mostly alphabetic galaxy name:
 console.log(galaxies.getRandomMostlyAlphabeticGalaxyName());
 ```
+## Install
+
+`npm i galaxies-data`
