@@ -1,4 +1,5 @@
 const galaxyNames = require('./galaxy-names.js');
+const faker = require('faker');
 
 // total number of names in array
 const galaxyNameCount = galaxyNames.galaxies.length;
