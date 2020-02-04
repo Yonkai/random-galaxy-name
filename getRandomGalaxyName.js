@@ -45,8 +45,13 @@ function getRandomMostlyAlphabeticGalaxyName(){
   return mostlyAlphabetic[getRandomInt(mostlyAlphabetic.length)];
 }
 
-//TODO: Random fantasy galaxy name.
+// random fantasy galaxy name.
+// literally just faker with galaxy postpended, lol.
+function getRandomFantasyGalaxyName(){
+  return faker.random.word() + ' Galaxy';
+}
 
 exports.getRandomGalaxyName = getRandomGalaxyName;
 exports.getRandomAlphabeticGalaxyName = getRandomAlphabeticGalaxyName;
 exports.getRandomMostlyAlphabeticGalaxyName = getRandomMostlyAlphabeticGalaxyName;
+exports.getRandomFantasyGalaxyName = getRandomFantasyGalaxyName;

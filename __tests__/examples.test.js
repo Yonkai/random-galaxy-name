@@ -8,3 +8,6 @@ console.log(galaxies.getRandomAlphabeticGalaxyName());
 
 //Get random mostly alphabetic galaxy name.
 console.log(galaxies.getRandomMostlyAlphabeticGalaxyName());
+
+//Get random fantasy galaxy name.
+console.log(galaxies.getRandomFantasyGalaxyName());
